@@ -1,42 +1,26 @@
-import React from 'react';
-import gotRecette from "../../assets/images/gotRecette.JPG";
-import README from "../../assets/images/README.JPG";
-import safespot from "../../assets/images/safespot.JPG";
+import React from "react";
+import { ReactComponent as GitHubLogo } from "../assets/icons/github-icon.svg";
 
-const Project = () => {
+function Project(props) {
+  const { name, link, repo, image } = props.project;
   return (
-    <div>
-    <div>
-    <h2>Work</h2>
-    </div>
-  <section id="work" class="works">
-    <div>
-      <h3>goRecette</h3>
-      <div>
-        <a href="https://github.com/Clos86/goRecette">
-          <img src={gotRecette} alt="goRecette screenshot" />
-        </a>
-    </div>
-    </div>
-    <div>
-      <h3>README Generator</h3>
-      <div>
-        <a href="https://github.com/Clos86/Vazquez-readme-generator">
-          <img src={README} alt="README screenshot" />
-        </a>
+    <a href={link} key={name} target="_blank" rel="noreferrer">
+      <div
+        className="w-96 h-64 m-2 shadow-md shadow-black rounded-md relative"
+        style={{
+          backgroundImage: `url(${process.env.PUBLIC_URL}/assets/images/${image})`,
+          backgroundRepeat: "no-repeat",
+          backgroundPosition: "center",
+          backgroundSize: "cover",
+        }}>
+        <span className="absolute -bottom-1/3 right-3">
+          <a href={repo} target="_blank" rel="noreferrer">
+            <GitHubLogo width="50px" />
+          </a>
+        </span>
       </div>
-    </div>
-    <div>
-      <h3>Safespot</h3>
-      <div>
-        <a href="https://github.com/Clos86/SafeSpot">
-          <img src={safespot} alt="Safespot screenshot" />
-        </a>
-      </div>
-    </div>
-  </section>
-  </div>
+    </a>
   );
-};
+}
 
 export default Project;

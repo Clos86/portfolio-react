@@ -3,7 +3,7 @@ import React from "react";
 function Resume() {
   return (
     <div className="text-center text-lg">
-      <div className="bg-gray-700 rounded-md">
+      <div className="p-3 rounded-full bg-slate-400 text-gray-900 shadow-black shadow-sm w-full md:w-30 self-center">
         <a
           href={`${process.env.PUBLIC_URL}/assets/pdf/Old Resume.pdf`}
           target="_blank"
@@ -33,7 +33,7 @@ function Resume() {
           <li>MongoDB</li>
           <li>MySQL</li>
           <li>NoSQL</li>
-          <li>RESTful AP</li>
+          <li>RESTful API</li>
         </p>
         </div>
     </div>

@@ -1,7 +1,7 @@
 # Personal Porfolio
 
   ## Description 
-  This is my own personal portfolio using React. This is still a work in progress and the resume needs to be updated to match my current tech skills.
+  This is my own personal portfolio using React. This is still a work in progress and the resume needs to be updated to match my current tech skills. It was a huge struggle with having to delete old branches that weren't working and creating new ones.
  
   ## Site 
   [Deployed Site](https://clos86.github.io/portfolio-react/)

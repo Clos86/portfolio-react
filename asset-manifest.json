@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/portfolio-react/static/css/main.f42bbecc.css",
+    "main.js": "/portfolio-react/static/js/main.c2bdeb88.js",
+    "static/media/headshot.jpg": "/portfolio-react/static/media/headshot.42021066ad87ecfa7e6d.jpg",
+    "static/media/background-img.jpg": "/portfolio-react/static/media/background-img.6c028171e17358d293ce.jpg",
+    "static/media/github-icon.svg": "/portfolio-react/static/media/github-icon.41bba81c8755d1687deabf6a58dd154b.svg",
+    "static/media/linkedin-icon.svg": "/portfolio-react/static/media/linkedin-icon.a664ab450576008282d5727b37ec6415.svg",
+    "index.html": "/portfolio-react/index.html",
+    "static/media/Gmail-Logo.svg": "/portfolio-react/static/media/Gmail-Logo.456e473acdfa595d925a91ae744cc16d.svg",
+    "main.f42bbecc.css.map": "/portfolio-react/static/css/main.f42bbecc.css.map",
+    "main.c2bdeb88.js.map": "/portfolio-react/static/js/main.c2bdeb88.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f42bbecc.css",
+    "static/js/main.c2bdeb88.js"
+  ]
+}

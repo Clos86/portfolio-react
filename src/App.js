@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="flex flex-col h-screen z-1">
       <Nav />
-      <div className="grid place-items-center h-screen w-3/4 md:w-1/2 bg-opacity-95 bg-yellow-900 text-gray-300 mx-auto p-4 mb-auto">
+      <div className="grid place-items-center h-screen w-3/4 md:w-1/2 bg-opacity-95 bg-yellow-900 text-gray-300 mx-auto mt-8 p-4 mb-8">
         <Routes>
           <Route path="/" element={<About />} />
           <Route path="/portfolio" element={<Portfolio />} />

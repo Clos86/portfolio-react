@@ -1,9 +1,9 @@
 import React from "react";
 function Project(props) {
-  const { name, link, image } = props.project;
+  const { name, repo, image, link } = props.project;
   return (
-    <a href={link} key={name} target="_blank" rel="noreferrer">
-      <p className="text-center font-bold">{name}</p>
+    <div>
+    <a href={link} key={name} target="_blank" rel="noreferrer">      
       <div
         className="w-96 h-64 m-2 shadow-md shadow-black rounded-md relative"
         style={{
@@ -14,6 +14,10 @@ function Project(props) {
         }}>        
       </div>
     </a>
+    <a href={repo} key={name} target="_blank" rel="noreferrer">
+     <p className="rounded-full bg-slate-400 text-gray-900 shadow-black shadow-sm text-center font-bold">{name} Repo</p>
+    </a>
+    </div>
   );
 }
 

@@ -5,8 +5,8 @@ function Nav() {
   const [links] = useState(["about", "portfolio", "contact", "resume"]);
 
   return (
-    <header className="bg-gray-800 text-gray-300 flex flex-col justify-center md:flex-row md:justify-between pb-0 md:pb-3 content-center place-content-center">
-      <h2 className="font-hand mx-2 text-6xl self-center">Carlos</h2>
+    <header className="bg-yellow-900 text-gray-300 flex flex-col justify-center md:flex-row md:justify-between pb-0 md:pb-3 content-center place-content-center">
+      <h2 className="mx-2 text-4xl self-center">Carlos Vazquez</h2>
       <nav className="">
         <ul className="flex flex-row flex-wrap md:flex-row md:flex-nowrap self-center md:place-self-end justify-center content-center uppercase w-screen md:w-1/3">
           {links.map((link) => (

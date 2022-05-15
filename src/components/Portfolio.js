@@ -1,26 +1,26 @@
 import React, { useState } from "react";
 import Project from "./Project";
 
-const Portfolio = () => {
+function Portfolio() {
   const [projects, setProjects] = useState([
     {
       name: "goRecette",
       link: "https://lf56.github.io/goRecette/",
       repo: "https://github.com/Clos86/goRecette",
-      image: "goRecette.jpg",
+      image: "goRecette.png",
     },
     {
-      name: "README Gennerator",
+      name: "README Generator",
       link: "https://drive.google.com/file/d/1gef8zoK_zDXlTQzusk6SnymQBEeNpvEq/view",
       repo: "https://github.com/Clos86/Vazquez-readme-generator",
-      image: "README.png",
+      image: "README.jpg",
     },
     {
       name: "SafeSpot",
       link: "https://safespotblog.herokuapp.com/",
       repo: "https://github.com/Clos86/SafeSpot",
-      image: "safespot.png",
-    },
+      image: "safespot.jpg",
+    },    
   ]);
 
   return (

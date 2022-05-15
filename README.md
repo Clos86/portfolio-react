@@ -7,7 +7,7 @@
   [Deployed Site](https://clos86.github.io/portfolio-react/)
   
   ## Screenshot 
-  ![ScreenShot](../../assets/images/screenshot.jpg)
+  ![ScreenShot](\screenshot.jpg)
   
   ## Questions
   If you have any questions about this projects, please contact me directly at [c.vazquez1986@gmail.com](mailto:c.vazquez1986@gmail.com).  

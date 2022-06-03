@@ -20,6 +20,12 @@ function Portfolio() {
       link: "https://safespotblog.herokuapp.com/",
       repo: "https://github.com/Clos86/SafeSpot",
       image: "safespot.jpg",
+    },
+    {
+      name: "devFinder",
+      link: "https://floating-atoll-26715.herokuapp.com/",
+      repo: "https://github.com/Clos86/finalPiece",
+      image: "devFinder.jpg",
     },    
   ]);
 

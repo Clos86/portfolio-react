@@ -10,7 +10,7 @@ function About() {
       /> 
       <p className="text-center text-lg">
         Welcome! My name is Carlos Vazquez and I'm a recent graduate of the UCF Coding Boot Camp.
-        I will have obtain the tools and knowledge to work on front-end and back-end jobs.
+        I have obtain the tools and knowledge to work on front-end and back-end jobs.
         Along with those skills I also have an art education degree, can work in a team or independently, and have a love for problem solving.  
       </p>
     </div>

@@ -14,7 +14,7 @@ function Footer() {
         <GithubLogo width="auto" height="55px" />
       </a>
       <a
-        href="https://www.linkedin.com/in/carlos-vazquez-625081227/"
+        href="https://www.linkedin.com/in/carlos-vazquez-mendez"
         target="_blank"
         rel="noreferrer">
         <LinkedInLogo width="auto" height="50px" />

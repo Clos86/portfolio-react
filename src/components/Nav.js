@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 
 function Nav() {
-  const [links] = useState(["about", "portfolio", "contact", "resume"]);
+  const [links] = useState(["about", "portfolio", "resume"]);
 
   return (
     <header className="bg-yellow-900 text-gray-300 flex flex-col justify-center md:flex-row md:justify-between pb-0 md:pb-3 content-center place-content-center">

@@ -2,6 +2,7 @@ import React from "react";
 import { ReactComponent as GithubLogo } from "../assets/icons/github-icon.svg";
 import { ReactComponent as LinkedInLogo } from "../assets/icons/linkedin-icon.svg";
 import { ReactComponent as GmailLogo } from "../assets/icons/Gmail-Logo.svg";
+import { ReactComponent as TwitterLogo } from "../assets/icons/twitter.svg";
 
 function Footer() {
   return (
@@ -17,6 +18,12 @@ function Footer() {
         target="_blank"
         rel="noreferrer">
         <LinkedInLogo width="auto" height="50px" />
+      </a>
+      <a
+        href="https://twitter.com/FullDevCarlos"
+        target="_blank"
+        rel="noreferrer">
+        <TwitterLogo width="auto" height="50px" />
       </a>
       <a
         href="mailto:c.vazquez1986@gmail.com"

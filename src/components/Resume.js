@@ -5,7 +5,7 @@ function Resume() {
     <div className="text-center text-lg">
       <div className="p-3 rounded-full bg-slate-400 text-gray-900 shadow-black shadow-sm w-full md:w-30 self-center">
         <a
-          href={`${process.env.PUBLIC_URL}/assets/pdf/Full-Stack Resume.pdf`}
+          href={`${process.env.PUBLIC_URL}/assets/pdf/Full-Stack-Resume2.pdf`}
           target="_blank"
           className="hover:underline text-lg"
           rel="noreferrer">
